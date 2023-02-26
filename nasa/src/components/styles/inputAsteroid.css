@@ -24,3 +24,9 @@
     border-radius: 20px 20px 2.5px 20px ;
     box-shadow: 0 0 10px rgb(205, 97, 50);
 }
+.load{
+    font-size: 25px;
+    font-weight: 550;
+    text-align: center;
+    padding: 50px;
+}
