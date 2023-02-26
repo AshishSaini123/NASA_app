@@ -10,7 +10,7 @@ const InputField:React.FC=()=>{
         nav(`/userinput/${id}`)
     }
     return(
-        <div data-testID="input_form" className="input_container">
+        <div  className="input_container">
             <h3 className="heading">NASA App</h3>
             <form className="input_box">
             <input className="input_field" onChange={(e)=>setID(e.target.value)} type="text" placeholder="Enter Asetroid ID" />
